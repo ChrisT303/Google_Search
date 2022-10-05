@@ -3,7 +3,7 @@ require('dotenv').config();
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb+srv://chris123:deftonecchris@cluster0.cegxu0b.mongodb.net/book_search?retryWrites=true&w=majority",
+    "mongodb://localhost:27017/book_search",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
