@@ -8,9 +8,10 @@ mongoose.connect(
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-  }
+  },
 );
 
 module.exports = mongoose.connection;
+
+
+// mongodb+srv://chris123:deftonechris@cluster0.cegxu0b.mongodb.net/book_search?retryWrites=true&w=majority
