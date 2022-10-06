@@ -11,7 +11,6 @@ A MERN stack application that allows the user to search and save books using the
   - [Usage](#usage)
   - [Screenshot](#screenshot)
   - [License](#license)
-        - [This project is licensed under](#this-project-is-licensed-under)
   - [Questions](#questions)
   - [Deployed Link](#deployed-link)
 
@@ -23,8 +22,8 @@ A MERN stack application that allows the user to search and save books using the
 Signup or login, then input the book of your choice in the search field.
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/103149149/194212761-e01c1efe-cab0-44d9-8307-aa3cefbbb95a.png)
 ## License
-##### This project is licensed under
 The MIT License
 ## Questions
 Contact me by clicking the below links:
