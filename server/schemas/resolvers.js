@@ -39,14 +39,14 @@ const resolvers = {
       return { token, user };
     },
     // can access the data using context
-    saveBook: async (parent, args, context) => {
+    saveBook: async (parent, { input }, context) => {
       //if context has a 'user' property, that means the user executing this mutation has a valid JWT and is logged in
-      console.log(context, args, "args");
+     
       if (context.user) {
         const updatedUser = await User.findByIdAndUpdate(
           { _id: context.user._id },
           {
-            $addToSet: { savedBooks: args },
+            $addToSet: { savedBooks: input },
           },
           { new: true, runValidators: true }
         );

@@ -10,7 +10,7 @@ import { useQuery, useMutation } from "@apollo/client";
 
 import { GET_ME } from "../utils/queries";
 import Auth from "../utils/auth";
-import { removeBookId } from "../utils/localStorage";
+import { removeBookId, saveBookIds} from "../utils/localStorage";
 import { REMOVE_BOOK } from "../utils/mutations";
 
 const SavedBooks = () => {
@@ -45,6 +45,9 @@ const SavedBooks = () => {
   if (loading) {
     return <h2>LOADING...</h2>;
   }
+
+    const savedBookIds = userData.savedBooks.map((book) => book.bookId);
+    saveBookIds(savedBookIds);
 
   return (
     <>
