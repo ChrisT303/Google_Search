@@ -11,7 +11,6 @@ A MERN stack application that allows the user to search and save books using the
   - [Usage](#usage)
   - [Screenshot](#screenshot)
   - [License](#license)
-        - [This project is licensed under]
   - [Questions](#questions)
   - [Deployed Link](#deployed-link)
 
