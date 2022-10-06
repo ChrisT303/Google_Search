@@ -24,7 +24,6 @@ Signup or login, then input the book of your choice in the search field.
 
 ## Screenshot
 ## License
-##### This project is licensed under
 The MIT License
 ## Questions
 Contact me by clicking the below links:
