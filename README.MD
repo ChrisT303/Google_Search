@@ -22,6 +22,7 @@ A MERN stack application that allows the user to search and save books using the
 Signup or login, then input the book of your choice in the search field.
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/103149149/194212761-e01c1efe-cab0-44d9-8307-aa3cefbbb95a.png)
 ## License
 The MIT License
 ## Questions
